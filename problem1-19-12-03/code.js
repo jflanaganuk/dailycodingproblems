@@ -9,6 +9,7 @@ function twoNumbersAddTogetherInList(list, number) {
         for(let j = 0; j < inverseArray.length; j++) {
             if ((val + inverseArray[j]) === number) {
                 mappedSuccess = true;
+                break;
             }
         }
         if (!mappedSuccess) {
